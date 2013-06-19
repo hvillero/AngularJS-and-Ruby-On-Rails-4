@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="AngularCasts">
+<head>
+  <title>AngularjsRails4</title>
+
+  <link href="//releases.flowplayer.org/5.4.0/skin/minimalist.css" rel="stylesheet">
+  <%= stylesheet_link_tag "application", media: "all" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+    <header>
+        Angular Casts
+    </header>
+
+<%= yield %>
+    <%= javascript_include_tag "application"%>
+    <script src="//releases.flowplayer.org/5.4.0/flowplayer.min.js"></script>
+</body>
+</html>
